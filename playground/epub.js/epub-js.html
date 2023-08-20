@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>use epub.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+</head>
+<body>
+<div id="area"></div>
+<script>
+    let book = ePub("./wewrw-volume-08.epub");
+    let rendition = book.renderTo("area", {width: 1280, height: 720});
+    let displayed = rendition.display();
+    console.log(displayed)
+    console.log()
+</script>
+</body>
+
+</html>

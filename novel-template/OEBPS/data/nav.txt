@@ -1,0 +1,130 @@
+
+人工介入
+    <div epub:type="toc-brief" class="contents">
+        <h3>CONTENTS</h3>
+        <div class="line"></div>
+        <ol class="list mx-auto w-26e">
+
+            <li><a href="../Text/chapter-01.xhtml">
+                <p class="title">『爱丽丝的思念』</p>
+                <p class="dots">……</p>
+                <p class="item">Prologue</p>
+            </a></li>
+
+            <li><a href="../Text/chapter-02.xhtml">
+                <p class="title">『独断专行·擦肩而过·歪曲的心』</p>
+                <p class="dots">……</p>
+                <p class="item">Chapter.1</p>
+            </a></li>
+
+            <li><a href="../Text/chapter-03.xhtml">
+                <p class="title">『星之仿造品』</p>
+                <p class="dots">……</p>
+                <p class="item">Chapter.2</p>
+            </a></li>
+
+            <li><a href="../Text/chapter-04.xhtml">
+                <p class="title">『欲离不得』</p>
+                <p class="dots">……</p>
+                <p class="item">Chapter.3</p>
+            </a></li>
+
+            <li><a href="../Text/chapter-05.xhtml">
+                <p class="title">『暗躍』</p>
+                <p class="dots">……</p>
+                <p class="item">Intermission</p>
+            </a></li>
+
+            <li><a href="../Text/chapter-06.xhtml">
+
+                <p class="title">『“超越”的魔人塞林伽』</p>
+
+                <p class="dots">……</p>
+
+                <p class="item">Chapter.4</p>
+
+            </a></li>
+
+            <li><a href="../Text/chapter-07.xhtml">
+
+                <p class="title">『魔人与战斗狂』</p>
+
+                <p class="dots">……</p>
+
+                <p class="item">Chapter.5</p>
+
+            </a></li>
+
+            <li><a href="../Text/chapter-08.xhtml">
+
+                <p class="title">『超越者们』</p>
+
+                <p class="dots">……</p>
+
+                <p class="item">Intermission</p>
+
+            </a></li>
+
+            <li><a href="../Text/chapter-09.xhtml">
+
+                <p class="title">『向星祈愿』</p>
+
+                <p class="dots">……</p>
+
+                <p class="item">Epilogue</p>
+
+            </a></li>
+        </ol>
+    </div>
+
+
+toc and landmarks 可以从原生NCX文件生成。
+
+    <nav epub:type="toc" id="toc" hidden="" class="void"><h3>Table of Contents</h3>
+
+        <ol>
+            <li><a href="../Text/cover.xhtml">封面</a></li>
+
+            <li><a href="../Text/title_page.xhtml">标题页</a></li>
+
+            <li><a href="../Text/information-01.xhtml">制作信息</a></li>
+
+            <li><a href="../Text/color_page-01.xhtml">彩页</a></li>
+
+            <li><a href="../Text/nav.xhtml">目录</a></li>
+
+            <li><a href="../Text/flyleaf.xhtml">正文</a>
+
+                <ol>
+                    <li><a href="../Text/chapter-01.xhtml">Prologue 『爱丽丝的思念』</a></li>
+
+                    <li><a href="../Text/chapter-02.xhtml">Chapter.1 『独断专行·擦肩而过·歪曲的心』</a></li>
+
+                    <li><a href="../Text/chapter-03.xhtml">Chapter.2 『星之仿造品』</a></li>
+
+                    <li><a href="../Text/chapter-04.xhtml">Chapter.3 『欲离不得』</a></li>
+
+                    <li><a href="../Text/chapter-05.xhtml">Intermission 『暗躍』</a></li>
+
+                    <li><a href="../Text/chapter-06.xhtml">Chapter.4 『“超越”的魔人塞林伽』</a></li>
+
+                    <li><a href="../Text/chapter-07.xhtml">Chapter.5 『魔人与战斗狂』</a></li>
+
+                    <li><a href="../Text/chapter-08.xhtml">Intermission 『超越者们』</a></li>
+
+                    <li><a href="../Text/chapter-09.xhtml">Epilogue 『向星祈愿』</a></li>
+                </ol>
+            </li>
+
+            <li><a href="../Text/foreshow.xhtml">预告</a></li>
+        </ol>
+    </nav>
+
+    <nav epub:type="landmarks" id="landmarks" hidden="" class="void"><h1>Landmarks</h1>
+        <ol>
+            <li><a epub:type="toc" href="#toc">Table of Contents</a></li>
+            <li><a epub:type="cover" href="../Text/cover.xhtml">封面</a></li>
+            <li><a epub:type="titlepage" href="../Text/title_page.xhtml">标题页</a></li>
+            <li><a epub:type="introduction" href="../Text/introduction.xhtml">Introduction</a></li>
+        </ol>
+    </nav>

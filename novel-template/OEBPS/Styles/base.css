@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    max-width: 100%;
+}
+
+/*
+not work, can be removed.
+ */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/*region || font family*/
+
+/*
+font family presets.
+extract to single scss file.
+
+see also: https://gist.github.com/AndorChen/aea7c5e6bf207c0660cccfb9996a468d
+*/
+
+/*
+font family for default body
+ */
+@font-face {
+    font-family: "Default";
+    src: local("微软雅黑"), local("STYuan");
+}
+
+
+/*
+font family for special symbols.
+ */
+@font-face {
+    font-family: "Symbol";
+    src: url("../Fonts/symbol.ttf") format("truetype");
+}
+
+/*
+font family for monospace code.
+ */
+@font-face {
+    font-family: "Code";
+    src: url("../Fonts/code.ttf") format("truetype");
+}
+
+/*
+Hei font family stack
+*/
+@font-face {
+    font-family: "Hei";
+    src: local("微软雅黑"), local("黑体"), local("Heiti"), local("Heiti SC"), local("STHeiti");
+}
+
+/*
+Yuan font family stack
+*/
+@font-face {
+    font-family: "Yuan";
+    src: local("圆体"), local("Yuanti"), local("Yuanti SC"), local("幼圆"), local("YouYuan"), local("STYuan");
+}
+
+/*
+Kai font family stack
+*/
+@font-face {
+    font-family: "Kai";
+    src: local("楷体"), local("Kaiti"), local("Kaiti SC"), local("STKai");
+}
+
+/*
+Song font family stack
+*/
+@font-face {
+    font-family: "Song";
+    src: local("华文中宋"), local("宋体"), local("Songti"), local("Songti SC"), local("STSong");
+}
+
+/*
+font family for title
+*/
+@font-face {
+    font-family: "Title";
+    src: url("../Fonts/title.ttf") format("truetype");
+}
+
+/*
+font family for subtitle
+*/
+@font-face {
+    font-family: "Subtitle";
+    src: url("../Fonts/subtitle.ttf") format("truetype");
+}
+
+/*
+font family for number or sequence number.
+typical use case: volume number
+*/
+@font-face {
+    font-family: "Order";
+    src: url("../Fonts/order.ttf") format("truetype");
+}
+
+/*
+font family for author
+*/
+@font-face {
+    font-family: "Author";
+    src: url("../Fonts/aut.ttf") format("truetype");
+}
+
+/*
+font family for illustration.
+*/
+@font-face {
+    font-family: "ill";
+    src: url("../Fonts/ill.ttf") format("truetype");
+}
+
+/*
+font family for content-title(toc title). now only is a stub.
+*/
+@font-face {
+    font-family: "content-title";
+    src: url("../Fonts/conttitle.ttf") format("truetype");
+}
+
+/*
+font family for contents(toc paragraph). now only is a stub.
+*/
+@font-face {
+    font-family: "contents";
+    src: url("../Fonts/contents.ttf") format("truetype");
+}
+/*endregion*/
+
+/*region || font usage helper */
+/*
+字体设置工具类
+*/
+.f-df {
+    font-family: Default, Symbol, sans-serif !important;
+}
+
+.f-symbol {
+    font-family: Symbol, sans-serif !important;
+}
+
+.f-hei {
+    font-family: Hei, Symbol, sans-serif !important;
+}
+
+.f-yuan {
+    font-family: Yuan, Symbol, sans-serif !important;
+}
+
+.f-kai {
+    font-family: Kai, Symbol, serif !important;
+}
+
+.f-song {
+    font-family: Song, Symbol, serif !important;
+}
+
+.aut {
+    font-family: Author, Song, Symbol, serif;
+}
+
+.ill {
+    font-family: ill, Song, Symbol, serif;
+}
+
+.trl {
+    font-family: trl, Song, Symbol, serif;
+}
+
+.order {
+    font-family: Order, Song, Symbol, serif;
+}
+/*endregion*/
+
+/*region || ruby */
+ruby {
+    ruby-align: center;
+    ruby-position: over;
+    text-indent: 0;
+}
+/*endregion*/
+
+/*region || emphasis text */
+em, .em, .emphasis {
+    font-style: inherit;
+    font-weight: inherit;
+    text-emphasis-position: under right;
+    text-emphasis-style: filled dot;
+}
+/*endregion*/
+
+/*region || footnotes */
+.fn-ref /*# [epub|type=noteref] */
+{
+    color: grey;
+    text-decoration: underline;
+    vertical-align: top;
+    font-size: 0.75em;
+}
+
+.fn-ref > img /*# [epub|type=noteref] > img */
+{
+    width: 1em;
+}
+
+footer, .footer {
+    margin: 3em 0.5em 0 0.5em;
+    text-indent: 0;
+}
+
+.footnotes /*# [epub|type=footnotes] */
+{
+    margin: 0.5em 0.75em;
+}
+
+.footnotes li /*# [epub|type=footnotes] li */
+{
+    color: grey;
+    font-size: 0.8em;
+    line-height: 1.2;
+    margin: 0.25em 0;
+}
+
+.footnote a /*# [epub|type=footnote] a */
+{
+    color: grey;
+    text-decoration: underline;
+}
+/*endregion*/
+
+
+/*
+Refactor notes:
+Removed subcont: ../Fonts/subcont.ttf => not need
+*/
+
+/*
+1. body设置的是全局设置。可以被具体的元素设置覆盖。
+2. prefix应该由插件例如autoprefixer来后处理补全，禁止人工输入。
+ */
+body {
+    font-family: "Default", "Symbol", sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    text-indent: 0;
+    vertical-align: baseline;
+    background: transparent;
+
+    word-spacing: normal;
+    letter-spacing: normal;
+    white-space: normal;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    text-align: left;
+    text-align-last: auto; /* refer text-align value when auto */
+
+    line-break: auto;
+    word-break: break-all;
+
+    /* 标点悬挂：严格风格，行首行尾悬挂 */
+    /* https://caniuse.com/css-hanging-punctuation 支持仅safari，非常局限*/
+    /* 参阅 https://www.thetype.com/2017/11/13290/ */
+    hanging-punctuation: first allow-end last;
+
+    hyphens: auto;
+
+    text-underline-position: under left;
+
+    overflow: visible;
+}
+
+body > .section {
+    overflow: visible;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*
+定义h1-h6标题的字体属性
+1. 字体
+2. 字重
+3. 字体大小
+4. 行高
+5. 文本块的首行缩进
+ */
+
+/*
+extract to heading.scss
+*/
+
+/*region || heading */
+h1, .h1 {
+    font-family: Title, Song, Symbol, serif;
+    font-weight: normal;
+    line-height: 1;
+    text-indent: 0;
+
+    font-size: 2.5em;
+}
+
+h2, .h2 {
+    font-family: Subtitle, Song, Symbol, serif;
+    font-weight: normal;
+    line-height: 1;
+    text-indent: 0;
+
+    font-size: 2em;
+}
+
+h3, .h3 {
+    font-family: Hei, Symbol, sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    text-indent: 0;
+
+    font-size: 1.35em;
+    text-align: center !important;
+    margin: 1.5em 0;
+}
+
+h4, .h4 {
+    font-family: Kai, Symbol, serif;
+    font-weight: normal;
+    line-height: 1;
+    text-indent: 0;
+
+    font-size: 1.2em;
+    text-align: center !important;
+    margin: 1.5em 0 1.25em 0;
+}
+
+h5, .h5 {
+    font-family: Default, Symbol, sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    text-indent: 0;
+
+    font-size: 1.1em;
+    text-align: center !important;
+}
+
+/*endregion*/
+
+/*region || illustration */
+.illus /*# [epub|type=figure] */
+{
+    text-indent: 0;
+    text-align: center !important;
+    width: 100%;
+    height: 100vh;
+
+    /* @deprecated https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-inside */
+    page-break-inside: avoid;
+    break-inside: avoid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illus > * /*# [epub|type=figure] > * */
+{
+    margin: auto;
+}
+
+/*
+restrict img can't exceed its parent wrapper
+*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*endregion*/
+
+/*region || separator */
+p.spr {
+    text-indent: 0;
+    text-align: center !important;
+    margin: 0;
+}
+
+h3 ~ p.spr, .h3 ~ p.spr {
+    margin: 1.25em 0;
+}
+
+h4 ~ p.spr, .h4 ~ p.spr {
+    margin: 1em 0;
+}
+
+.spr-footnotes {
+    width: 50%;
+    border-top: thin solid grey;
+}
+/*endregion*/
+
+/*region || break property */
+/*
+deprecated page-break-* property
+*/
+.break-both {
+    page-break-before: always;
+    break-before: page;
+    page-break-after: always;
+    break-after: page;
+}
+
+.break-before {
+    page-break-before: always;
+    break-before: page;
+}
+
+.break-after {
+    page-break-after: always;
+    break-after: page;
+}
+/*endregion*/

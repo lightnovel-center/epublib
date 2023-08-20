@@ -1,0 +1,27 @@
+正常的markdown，段落与图片。
+
+
+图片好办，将扫图文件的路径写入img的src即可。这个彩页扫图必然存在。
+    <div epub:type="figure" class="illus duokan-image-single">
+      <img alt="color-01" src="../Images/color-01.jpg"/>
+    </div>
+
+
+这个段落可能存在，也可能不存在。
+这个段落基本无法使用md来替代,那就回退到原生html,仅添加css语义化标志类即可，美化与调试可以后续补充处理。
+而且，这是个性化非常明显的页面。不存在普适性。
+    <div class="section">
+      <div class="section Empire">
+        <p class="name">帝国</p>
+        <p class="def">机械装置的理想乡</p>
+        <p class="eng">Empire</p>
+        <p class="desc">拥有高度的科学力与强大的军事力，世界第一的大国。对使用星灵的皇厅感到了威胁，想要将其毁灭。</p>
+      </div>
+
+      <div class="section Imperial">
+        <p class="name">皇厅</p>
+        <p class="def">魔女们的乐园</p>
+        <p class="eng">Imperial Household Agency</p>
+        <p class="desc">使用『星灵』这一尚未解明的能量来引出超常力量的，魔女们的国度。憎恨迫害着她们的帝国。</p>
+      </div>
+    </div>

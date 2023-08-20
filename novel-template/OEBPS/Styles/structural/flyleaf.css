@@ -1,0 +1,21 @@
+.flyleaf .section{
+    margin-top: 1.5em;
+}
+
+.flyleaf .section p{
+    margin: 0.25em 0.5em;
+}
+
+@font-face {
+    font-family: "flyleaf-eng";
+    src: url("../../Fonts/flyleaf-eng.ttf") format("truetype");
+}
+
+.flyleaf .eng {
+    font-family: flyleaf-eng, Song, serif;
+    font-style: italic;
+}
+
+.flyleaf .eng + p {
+    margin-top: 0;
+}

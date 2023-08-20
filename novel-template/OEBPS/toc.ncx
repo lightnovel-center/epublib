@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:f9f12b29-390a-4806-98b9-47e15f47e149"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>你与我最后的战场，亦或是世界起始的圣战 3</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1">
+      <navLabel>
+        <text>封面</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint2">
+      <navLabel>
+        <text>标题页</text>
+      </navLabel>
+      <content src="Text/title_page.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint3">
+      <navLabel>
+        <text>制作信息</text>
+      </navLabel>
+      <content src="Text/information-01.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint4">
+      <navLabel>
+        <text>彩页</text>
+      </navLabel>
+      <content src="Text/color_page-01.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint5">
+      <navLabel>
+        <text>目录</text>
+      </navLabel>
+      <content src="Text/nav.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint6">
+      <navLabel>
+        <text>正文</text>
+      </navLabel>
+      <content src="Text/flyleaf.xhtml"/>
+      <navPoint id="navPoint7">
+        <navLabel>
+          <text>Prologue 『爱丽丝的思念』</text>
+        </navLabel>
+        <content src="Text/chapter-01.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint8">
+        <navLabel>
+          <text>Chapter.1 『独断专行·擦肩而过·歪曲的心』</text>
+        </navLabel>
+        <content src="Text/chapter-02.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint9">
+        <navLabel>
+          <text>Chapter.2 『星之仿造品』</text>
+        </navLabel>
+        <content src="Text/chapter-03.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint10">
+        <navLabel>
+          <text>Chapter.3 『欲离不得』</text>
+        </navLabel>
+        <content src="Text/chapter-04.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint11">
+        <navLabel>
+          <text>Intermission 『暗躍』</text>
+        </navLabel>
+        <content src="Text/chapter-05.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint12">
+        <navLabel>
+          <text>Chapter.4 『“超越”的魔人塞林伽』</text>
+        </navLabel>
+        <content src="Text/chapter-06.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint13">
+        <navLabel>
+          <text>Chapter.5 『魔人与战斗狂』</text>
+        </navLabel>
+        <content src="Text/chapter-07.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint14">
+        <navLabel>
+          <text>Intermission 『超越者们』</text>
+        </navLabel>
+        <content src="Text/chapter-08.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint15">
+        <navLabel>
+          <text>Epilogue 『向星祈愿』</text>
+        </navLabel>
+        <content src="Text/chapter-09.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint16">
+      <navLabel>
+        <text>预告</text>
+      </navLabel>
+      <content src="Text/foreshow.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

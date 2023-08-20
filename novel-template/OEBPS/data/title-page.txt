@@ -1,0 +1,80 @@
+replace {{TITLE_PAGE_CONTENT}} by
+
+<div class="page-med">
+    <div class="p-5p">
+      <h1 epub:type="covertitle" class="void">你与我最后的战场，亦或是世界起始的圣战 3</h1>
+
+      <div class="h1 line-hwc w-4e right">
+        <div class="right w-1e25 ml-n0e1">
+          <p class="hei bold color-primary fs-1e1">你</p>
+
+          <p class="fs-0e75">与</p>
+
+          <p class="hei bold color-accent fs-1e1">我</p>
+
+          <p class="fs-1e25 scale-Y0r7">最</p>
+
+          <p class="fs-1e1 scale-X0r8">后</p>
+
+          <p class="fs-0e6">的</p>
+        </div>
+        <div class="right fs-0e9 w-1e mt-1e ml-n0e2">
+          <p class="scale-X0r9">战</p>
+
+          <p class="scale-X0r9">场</p>
+
+          <p class="fs-0e75 mt-n0e6 mb-n0e1">，</p>
+
+          <p class="fs-0e9">亦</p>
+
+          <p class="fs-0e8">或</p>
+
+          <p class="fs-0e7">是</p>
+        </div>
+
+        <div class="right mt-0e25 w-1e3">
+          <p>世</p>
+
+          <p class="scale-X0r7">界</p>
+
+          <p class="fs-0e6">起</p>
+
+          <p class="scale-Y1r2">始</p>
+
+          <p class="fs-0e6 pl-0e6">的</p>
+
+          <p class="hei bold color-accent fs-1e3">圣</p>
+
+          <p class="hei bold color-primary fs-1e25 scale-X0r9">战</p>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="w-2e5 line-hwc">
+        <div class="aut mt-1e5">
+          <p>細</p>
+
+          <p>音</p>
+
+          <p class="mt-0e5">啓</p>
+        </div>
+
+        <div class="ill fs-0e9 mt-1e5">
+          <div class="ta-center fs-0e5 mb-0e5">
+            illustration
+          </div>
+
+          <p>猫</p>
+
+          <p>鍋</p>
+
+          <p>蒼</p>
+        </div>
+
+        <p class="order fs-3e mt-0e5">3</p>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>

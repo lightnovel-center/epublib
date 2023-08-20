@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="tle">你与我最后的战场，亦或是世界起始的圣战 3</dc:title>
+    <meta property="title-type" refines="#tle">main</meta>
+    <meta property="file-as" refines="#tle">你与我最后的战场，亦或是世界起始的圣战 03</meta>
+    <meta property="alternate-script" xml:lang="ja" refines="#tle">キミと僕の最後の戦場、あるいは世界が始まる聖戦 3</meta>
+    <meta property="belongs-to-collection" id="num">你与我最后的战场，亦或是世界起始的圣战</meta>
+    <meta property="collection-type" refines="#num">series</meta>
+    <meta property="group-position" refines="#num">3</meta>
+    <meta property="alternate-script" xml:lang="ja" refines="#num">キミと僕の最後の戦場、あるいは世界が始まる聖戦</meta>
+    <dc:creator id="cre">細音啓</dc:creator>
+    <meta property="file-as" refines="#cre">細音啓</meta>
+    <meta property="alternate-script" xml:lang="zh-CN" refines="#cre">细音启</meta>
+    <dc:contributor id="ill">猫鍋蒼</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#ill">ill</meta>
+    <meta property="file-as" refines="#ill">猫鍋蒼</meta>
+    <meta property="alternate-script" xml:lang="zh-CN" refines="#ill">猫锅苍</meta>
+    <dc:contributor id="trl">天灾</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#trl">trl</meta>
+    <dc:contributor id="red">轻亦之间</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#red">red</meta>
+    <dc:contributor id="pro">第九〇七部队</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#pro">pro</meta>
+    <dc:description>皇庁への潜入、大罪人の脱獄。魔女と剣士の運命は激化する――
+      「キミだから譲れないの」「僕からも大事な話がある」皇庁への潜入を命じられた矢先、イスカはアリスの監視下に置かれる事態に見舞われる。超至近距離で互いの心を垣間見る二人だが、皇庁を揺るがす事件が起きて……
+    </dc:description>
+    <dc:publisher>轻之国度ePub工作组</dc:publisher>
+    <dc:source>轻之国度www.lightnovel.cn</dc:source>
+    <dc:subject>轻小说</dc:subject>
+    <dc:language>zh-CN</dc:language>
+    <dc:date>2017-12-20</dc:date>
+    <dc:identifier id="BookId">urn:uuid:f9f12b29-390a-4806-98b9-47e15f47e149</dc:identifier>
+    <meta name="Sigil version" content="0.9.10"/>
+    <meta name="ePub version" content="2.0.0"/>
+    <meta property="dcterms:modified">2019-05-26T16:27:23Z</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="information-02.xhtml" href="Text/information-02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="title_page.xhtml" href="Text/title_page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="information-01.xhtml" href="Text/information-01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introduction.xhtml" href="Text/introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="color_page-01.xhtml" href="Text/color_page-01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="color_page-02.xhtml" href="Text/color_page-02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="contents.xhtml" href="Text/contents.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aut.ttf" href="Fonts/aut.ttf" media-type="application/x-font-ttf"/>
+    <item id="fn-ref.png" href="Images/fn-ref.png" media-type="image/png"/>
+    <item id="ill.ttf" href="Fonts/ill.ttf" media-type="application/x-font-ttf"/>
+    <item id="LK-logo.png" href="Images/LK-logo.png" media-type="image/png"/>
+    <item id="maker.ttf" href="Fonts/maker.ttf" media-type="application/x-font-ttf"/>
+    <item id="order.ttf" href="Fonts/order.ttf" media-type="application/x-font-ttf"/>
+    <item id="title.ttf" href="Fonts/title.ttf" media-type="application/x-font-ttf"/>
+    <item id="title-hei.ttf" href="Fonts/title-hei.ttf" media-type="application/x-font-ttf"/>
+    <item id="team.ttf" href="Fonts/team.ttf" media-type="application/x-font-ttf"/>
+    <item id="x000-TL2-01_FRM.css" href="Styles/000-TL2-01_FRM.css" media-type="text/css"/>
+    <item id="x000-TL2-02_STD.css" href="Styles/000-TL2-02_STD.css" media-type="text/css"/>
+    <item id="x000-TL2-03_ADV.css" href="Styles/000-TL2-03_ADV.css" media-type="text/css"/>
+    <item id="x000-TL2-04_SIG.css" href="Styles/000-TL2-04_SIG.css" media-type="text/css"/>
+    <item id="x000-TL2-05_TMP.css" href="Styles/000-TL2-05_TMP.css" media-type="text/css"/>
+    <item id="x021-WEWRW-03.css" href="Styles/021-WEWRW-03.css" media-type="text/css"/>
+    <item id="x021-WEWRW-00.css" href="Styles/021-WEWRW-00.css" media-type="text/css"/>
+    <item id="color-01.jpg" href="Images/color-01.jpg" media-type="image/jpeg"/>
+    <item id="color-02.jpg" href="Images/color-02.jpg" media-type="image/jpeg"/>
+    <item id="contents.jpg" href="Images/contents.jpg" media-type="image/jpeg"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+    <item id="flyleaf.jpg" href="Images/flyleaf.jpg" media-type="image/jpeg"/>
+    <item id="foreshow.jpg" href="Images/foreshow.jpg" media-type="image/jpeg"/>
+    <item id="illus-01.jpg" href="Images/illus-01.jpg" media-type="image/jpeg"/>
+    <item id="illus-02.jpg" href="Images/illus-02.jpg" media-type="image/jpeg"/>
+    <item id="illus-03.jpg" href="Images/illus-03.jpg" media-type="image/jpeg"/>
+    <item id="illus-04.jpg" href="Images/illus-04.jpg" media-type="image/jpeg"/>
+    <item id="illus-05.jpg" href="Images/illus-05.jpg" media-type="image/jpeg"/>
+    <item id="illus-06.jpg" href="Images/illus-06.jpg" media-type="image/jpeg"/>
+    <item id="foreshow.xhtml" href="Text/foreshow.xhtml" media-type="application/xhtml+xml"/>
+    <item id="flyleaf.xhtml" href="Text/flyleaf.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-01.xhtml" href="Text/chapter-01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-02.xhtml" href="Text/chapter-02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-03.xhtml" href="Text/chapter-03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-04.xhtml" href="Text/chapter-04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-05.xhtml" href="Text/chapter-05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-06.xhtml" href="Text/chapter-06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-07.xhtml" href="Text/chapter-07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-08.xhtml" href="Text/chapter-08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-09.xhtml" href="Text/chapter-09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="flyleaf-eng.ttf" href="Fonts/flyleaf-eng.ttf" media-type="application/x-font-ttf"/>
+    <item id="contents.ttf" href="Fonts/contents.ttf" media-type="application/x-font-ttf"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" properties="duokan-page-fullscreen"/>
+    <itemref idref="title_page.xhtml"/>
+    <itemref idref="information-01.xhtml"/>
+    <itemref idref="information-02.xhtml"/>
+    <itemref idref="introduction.xhtml"/>
+    <itemref idref="color_page-01.xhtml"/>
+    <itemref idref="color_page-02.xhtml"/>
+    <itemref idref="contents.xhtml"/>
+    <itemref idref="nav.xhtml"/>
+    <itemref idref="flyleaf.xhtml"/>
+    <itemref idref="chapter-01.xhtml"/>
+    <itemref idref="chapter-02.xhtml"/>
+    <itemref idref="chapter-03.xhtml"/>
+    <itemref idref="chapter-04.xhtml"/>
+    <itemref idref="chapter-05.xhtml"/>
+    <itemref idref="chapter-06.xhtml"/>
+    <itemref idref="chapter-07.xhtml"/>
+    <itemref idref="chapter-08.xhtml"/>
+    <itemref idref="chapter-09.xhtml"/>
+    <itemref idref="foreshow.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="目录" href="Text/nav.xhtml"/>
+    <reference type="cover" title="封面" href="Text/cover.xhtml"/>
+    <reference type="title-page" title="标题页" href="Text/title_page.xhtml"/>
+    <reference type="other.introduction" title="" href="Text/introduction.xhtml"/>
+  </guide>
+</package>

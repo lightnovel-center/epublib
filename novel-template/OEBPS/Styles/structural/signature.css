@@ -1,0 +1,104 @@
+/*
+font for your organization（工作组/组织）
+*/
+@font-face {
+    font-family: "org";
+    src: url("../Fonts/org.ttf") format("truetype");
+}
+
+/*
+font for your team（团队）
+*/
+@font-face {
+    font-family: "team";
+    src: url("../../Fonts/team.ttf") format("truetype");
+}
+
+/*
+font for marker（制作者）
+*/
+@font-face {
+    font-family: "maker";
+    src: url("../../Fonts/maker.ttf") format("truetype");
+}
+
+/*
+font for source（图源）
+*/
+@font-face {
+    font-family: "source";
+    src: url("../Fonts/source.ttf") format("truetype");
+}
+
+/*
+font for proofreader（校对）
+*/
+@font-face {
+    font-family: "proofreader";
+    src: url("../Fonts/proofreader.ttf") format("truetype");
+}
+
+.information .classic {
+    width: 30em;
+    padding: 5%;
+    margin: 10% auto;
+}
+
+.information .classic > .team {
+    text-align: right !important;
+    margin: 0 5% 0.5em 5%;
+    font-family: team, Yuan, sans-serif;
+    text-decoration: underline;
+}
+
+.information .classic > .logo {
+    max-height: 10em;
+    text-align: center !important;
+    margin: auto;
+}
+
+.information .classic > .contributor {
+    text-align: right !important;
+    margin: 0 5% 0 10%;
+}
+
+.information .classic > .contributor > .item {
+    font-family: Hei, sans-serif;
+    /*font-size: 0.5em;*/
+    font-size: calc(0.5 * 1em);
+    color: white;
+    padding-right: 0.25em;
+    height: 3em;
+    margin-top: 0.75em;
+    margin-bottom: -3.1em;
+}
+
+.information .classic > .source > .name {
+    font-family: source, Yuan, sans-serif;
+    margin-left: 25%;
+    padding-right: 0.25em;
+    border-right: 0.75em solid black;
+    border-bottom: medium solid black;
+}
+
+.information .classic > .proofreader > .name {
+    font-family: proofreader, Yuan, sans-serif;
+    margin-left: 12.5%;
+    padding-right: 0.25em;
+    border-right: 0.75em solid black;
+    border-bottom: medium solid black;
+}
+
+.information .classic > .maker > .name {
+    font-family: maker, Kai, serif;
+    padding-right: 0.25em;
+    border-right: 0.75em solid black;
+    border-bottom: medium solid black;
+}
+
+.information .classic .statement {
+    text-align: right !important;
+    margin: 1em 5% 0 5%;
+    font-size: 0.75em;
+    color: red;
+}

@@ -1,0 +1,12 @@
+    <div epub:type="figure" class="illus">
+      <img alt="flyleaf" src="../Images/{{FLYLEAF_IMAGE}}"/>
+    </div>
+
+    <div class="section ta-right">
+      <p class="eng">So fert Sew lu sis ria Es.</p>
+      <p class="f-song">对你来说，我是什么呢？</p>
+      <p class="eng">lu ez clar ria xel.lu ez karel eia xel pha bie Ec Ies sanc.</p>
+      <p class="f-song">告诉我你的答案。我追寻着你内心的声音。</p>
+      <p class="eng">E ema evoia fert Ez lihit. xel cia miel bie shel.</p>
+      <p class="f-song">你将成为你期望的一切。而我将成为那份力量。</p>
+    </div>

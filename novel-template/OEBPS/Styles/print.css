@@ -1,0 +1,15 @@
+/*
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/@page tune some properties when printing.
+If this is not your desired effect, tune the rules as needed.
+
+1. no padding and x margin quto
+2. no border
+*/
+@page {
+    margin: 0 auto;
+    /* 1 */
+    padding: 0;
+    /* 1 */
+    border: none;
+    /* 2 */
+}

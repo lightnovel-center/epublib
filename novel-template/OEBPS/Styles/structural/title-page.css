@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "title-hei";
+    src: url("../../Fonts/title-hei.ttf") format("truetype");
+}
+
+.title-page .h1 .hei {
+    font-family: title-hei, Hei, sans-serif;
+}
+
+.title-page .aut {
+    font-family: Author, Hei, sans-serif;
+}
+
+.title-page .ill {
+    font-family: Illus, Hei, sans-serif;
+}
+
+.title-page .aut p, .title-page .ill p {
+    color: white;
+    background-color: black;
+    padding: 0.2em 0.2em;
+    margin-bottom: -0.1em;
+}
+
+.title-page .order {
+    font-family: Order, Hei, sans-serif;
+}

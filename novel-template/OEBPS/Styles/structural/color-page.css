@@ -1,0 +1,76 @@
+.color-page .section > .section {
+    color: white;
+}
+
+.color-page .name {
+    font-family: Hei, Symbol, sans-serif;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.color-page .def {
+    font-size: 0.9em;
+}
+
+.color-page .eng {
+    font-size: 0.7em;
+}
+
+.color-page .desc {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+/*
+Neon light text: 文本阴影
+1. 先设置一个单色的原地的文本阴影
+2. 渐进增强：设置多个文本阴影的样式：原地+四个方向=5个
+do better: generalize: rename people name to specific color keywords
+*/
+
+.color-page .words {
+    color: black;
+    font-family: Song, Symbol, serif;
+    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 0.3em white, 0.15em 0 0.3em white, 0 0.15em 0.3em white, -0.15em 0 0.3em white, 0 -0.15em 0.3em white;
+}
+
+.color-page .Iska, .color-page .Empire {
+    text-shadow: 0 0 3px deepskyblue;
+    text-shadow: 0 0 0.3em deepskyblue, 0.15em 0 0.3em deepskyblue, 0 0.15em 0.3em deepskyblue, -0.15em 0 0.3em deepskyblue, 0 -0.15em 0.3em deepskyblue;
+}
+
+.color-page .Aliceliese, .color-page .Imperial {
+    text-shadow: 0 0 3px deeppink;
+    text-shadow: 0 0 0.3em deeppink, 0.15em 0 0.3em deeppink, 0 0.15em 0.3em deeppink, -0.15em 0 0.3em deeppink, 0 -0.15em 0.3em deeppink;
+}
+
+.color-page .Mismis {
+    text-shadow: 0 0 3px slateblue;
+    text-shadow: 0 0 0.3em slateblue, 0.15em 0 0.3em slateblue, 0 0.15em 0.3em slateblue, -0.15em 0 0.3em slateblue, 0 -0.15em 0.3em slateblue;
+}
+
+.color-page .Jhin {
+    text-shadow: 0 0 3px purple;
+    text-shadow: 0 0 0.3em purple, 0.15em 0 0.3em purple, 0 0.15em 0.3em purple, -0.15em 0 0.3em purple, 0 -0.15em 0.3em purple;
+}
+
+.color-page .Nene {
+    text-shadow: 0 0 3px orangered;
+    text-shadow: 0 0 0.3em orangered, 0.15em 0 0.3em orangered, 0 0.15em 0.3em orangered, -0.15em 0 0.3em orangered, 0 -0.15em 0.3em orangered;
+}
+
+.color-page .Rin {
+    text-shadow: 0 0 3px gold;
+    text-shadow: 0 0 0.3em gold, 0.15em 0 0.3em gold, 0 0.15em 0.3em gold, -0.15em 0 0.3em gold, 0 -0.15em 0.3em gold;
+}
+
+.color-page .Elletear {
+    text-shadow: 0 0 3px lightgreen;
+    text-shadow: 0 0 0.3em lightgreen, 0.15em 0 0.3em lightgreen, 0 0.15em 0.3em lightgreen, -0.15em 0 0.3em lightgreen, 0 -0.15em 0.3em lightgreen;
+}
+
+.color-page .Sisbell {
+    text-shadow: 0 0 3px orchid;
+    text-shadow: 0 0 0.3em orchid, 0.15em 0 0.3em orchid, 0 0.15em 0.3em orchid, -0.15em 0 0.3em orchid, 0 -0.15em 0.3em orchid;
+}

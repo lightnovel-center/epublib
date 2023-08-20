@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>learn tailwindcss</title>
+</head>
+<body>
+<!--修改html的css class时，触发tailwindcss的监听机制，因此它会检测生成必要的css样式到output.css中-->
+<h1 class="text-2xl font-bold underline green">
+    Hello world!
+</h1>
+<div class="p-9 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+    <div class="shrink-0">
+        <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+    </div>
+    <div>
+        <div class="text-xl font-medium text-red">ChitChat</div>
+        <p class="text-slate-500 text-white basic-3.5">You have a new message!</p>
+    </div>
+</div>
+</body>
+</html>

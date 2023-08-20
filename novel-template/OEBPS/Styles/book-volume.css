@@ -1,0 +1,12 @@
+/*
+1. 优先考虑utilities中的颜色版，
+2. 如果需要非常特定的值，那么就自己定义。
+*/
+
+.color-primary {
+    color: #785bb1;
+}
+
+.color-accent {
+    color: #fdbe00;
+}

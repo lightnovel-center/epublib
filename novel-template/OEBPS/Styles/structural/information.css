@@ -1,0 +1,27 @@
+.infobox /*# [epub|type=contributors]  */
+{
+    font-size: 1em;
+    line-height: 1.1;
+    text-indent: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.infobox p /*# [epub|type=contributors] >  p */
+{
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+.infobox p.top /*# [epub|type=contributors] > p:top */
+{
+    padding-top: 0.25em;
+    margin-top: 0.25em;
+    border-top: thin solid black;
+}
+
+.infobox p.bottom /*# [epub|type=contributors] > p.bottom */
+{
+    padding-bottom: 0.25em;
+    border-bottom: thin solid black;
+}

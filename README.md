@@ -14,6 +14,10 @@ PDF 提供了可能。
 - 计划内置默认的书籍主题：轻小说。
 - epublib 添加插件系统，参考 ebooklib。
 
+## useful links
+- https://www.bookstack.cn/read/mba811-Writing/Pandoc-01.md => Pandoc’s markdown 语法，用于增强书籍排版。
+- https://docs.citationstyles.org/en/stable/primer.html => Primer — An Introduction to CSL
+
 ## acknowledgements
 
 感谢下面这些项目，为此项目提供了灵感来源以及代码参考。
